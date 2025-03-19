@@ -1,11 +1,18 @@
+
+
 let w = (c.width = window.innerWidth),
   h = (c.height = window.innerHeight),
   ctx = c.getContext("2d"),
   hw = w / 2;
+let text = ["¡FELIZ CUMPLEAÑOS!", "KATHERIN"];
+if(w < 700){
+  text = ["¡FELIZ", "CUMPLEAÑOS!", "KATHERIN"];
+}
+
 (hh = h / 2),
   (opts = {
     // change the text in here //
-    strings: ["¡FELIZ CUMPLEAÑOS!", "KATHERIN"],
+    strings: text,
     charSize: 30,
     charSpacing: 35,
     lineHeight: 40,
