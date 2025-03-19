@@ -6,7 +6,7 @@ let w = (c.width = window.innerWidth),
   hw = w / 2;
 let text = ["¡FELIZ CUMPLEAÑOS!", "KATHERIN"];
 if(w < 700){
-  text = ["¡FELIZ", "CUMPLEAÑOS!", "KATHERIN"];
+  text = ["¡FELIZ", "CUMPLE!", "KATHERIN"];
 }
 
 (hh = h / 2),
